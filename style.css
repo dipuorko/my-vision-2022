@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+.focus{
+    border-left: 3px solid orangered;
+    padding: 0 0 0 5px;
+}
+.first{
+    display: flex;
+}
+.mission{
+    width: 50%;
+}
+.mission img{
+    width: 50%;
+}
