@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 h1{
     font-size: 50px;
 }
@@ -26,6 +29,9 @@ h1{
 }
 .big-mission img{
     width: 50%;
+}
+.second{
+    margin-bottom: 200px;
 }
 .my-mission{
     text-align: center;
@@ -63,4 +69,42 @@ h1{
 }
 .goals img{
     width: 200px;
+}
+.third{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.develop{
+    padding-right: 50px;
+}
+.fourth{
+    display: flex;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+footer{
+    background-color: black;
+}
+.footer{
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+.sky-blue{
+    color: skyblue;
+}
+small{
+    color: wheat;
 }
