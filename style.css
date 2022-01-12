@@ -10,6 +10,7 @@ h1{
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
+    font-weight: 700;
 }
 .focus{
     border-left: 3px solid orangered;
@@ -17,11 +18,49 @@ h1{
 }
 .first{
     display: flex;
+    margin-bottom: 200px;
 }
-.mission{
+.big-mission{
     width: 50%;
     margin-left: 10%;
 }
-.mission img{
+.big-mission img{
     width: 50%;
+}
+.my-mission{
+    text-align: center;
+}
+.m-v-g{
+    display: flex;
+    margin: 0 4% 0 4%;
+}
+.mission{
+    width: 33.33%;
+    margin: 3%;
+    padding: 3%;
+    background-color: seashell;
+    border-radius: 20px;
+}
+.mission img{
+    width: 200px;
+}
+.vission{
+    width: 33.33%;
+    margin: 3%;
+    padding: 3%;
+    background-color: silver;
+    border-radius: 20px;
+}
+.vission img{
+    width: 200px;
+}
+.goals{
+    width: 33.33%;
+    margin: 3%;
+    padding: 3%;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+.goals img{
+    width: 200px;
 }
