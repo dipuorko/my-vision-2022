@@ -73,9 +73,10 @@ h1{
 .third{
     display: flex;
     background-image: url(images/shapes/shape-1.png);
-    background-position-x: left;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position: left center;
+    margin: 0 100px;
+    margin-bottom: 200px;
 }
 .link-button{
     text-decoration: none;
@@ -92,8 +93,34 @@ h1{
     display: flex;
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    background-position: right bottom;
+    margin: 0 100px;
+}
+.fifth{
+    margin-top: 50px;
+}
+.menu{
+    background-color: rgb(63, 62, 62);
+    padding: 5px 0;
+    color: whitesmoke;
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.middle{
+    background-color: darkgrey;
+    padding: 30px 0;
+    text-align: center;
+}
+.last{
+    background-color: darkseagreen;
+    padding: 6px 0 ;
+    text-align: center;
+}
+li{
+    display: inline;
+    align-items: center;
 }
 footer{
     background-color: black;
@@ -101,6 +128,7 @@ footer{
 .footer{
     text-align: center;
     padding: 5px 0 10px 0;
+    margin-top: 100px;
 }
 .sky-blue{
     color: skyblue;
